@@ -1,0 +1,50 @@
+.weather {
+    place-self: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, hsl(173, 26%, 51%), hsl(158, 40%, 33%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.search-bar input {
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    color: hsl(37, 34%, 54%);
+    background-color: hsl(37, 39%, 88%);
+    font-size: 18px;
+}
+
+.search-bar img {
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background: hsl(37, 39%, 88%);
+    cursor: pointer;
+}
+
+.weather-icon {
+    width: 150px;
+    margin: 30px 0;
+}
+
+.temperature {
+    color: white;
+    font-size: 80px;
+    line-height: 1;
+}
+
+.location {
+    color: white;
+    font-size: 40px;
+}
