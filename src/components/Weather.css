@@ -39,12 +39,12 @@
 }
 
 .temperature {
-    color: white;
+    color: hsl(0, 0%, 100%);
     font-size: 80px;
     line-height: 1;
 }
 
 .location {
-    color: white;
+    color: hsl(0, 0%, 100%);
     font-size: 40px;
 }
